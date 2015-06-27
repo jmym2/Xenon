@@ -92,12 +92,7 @@ void WINAPI HotKeys()
 				Sleep(100);
 		}
 
-		else if (HotKeyPressed(VK_Scoreboard))
-		{
-			ScoreboardShortcutKey();
-			while (HotKeyPressed(VK_Scoreboard))
-				Sleep(100);
-		}
+	
 
 		else if (HotKeyPressed(VK_ClearScreen))
 		{
